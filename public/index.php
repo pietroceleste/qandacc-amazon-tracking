@@ -21,4 +21,3 @@ function getTracking($trackingCode)
 
 $response = getTracking(filter_input(\INPUT_GET, 'trackingCode'));
 printJson($response);
-
