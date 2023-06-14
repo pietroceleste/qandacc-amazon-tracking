@@ -1,0 +1,24 @@
+{
+    "name": "qandacc/amazon-tracking",
+    "version": "0.1",
+    "homepage": "http://qanda.cc/amazon-tracking",
+    "type": "library",
+    "description": "Osynapsy bootstrap components library",
+    "keywords": ["Amazon", "Tracking"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "pietro.celeste@gmail.com",
+            "homepage": "https://github.com/pietroceleste/amazon-tracking/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0"        
+    },
+    "autoload" : {
+        "psr-4": {
+            "Qandacc\\AmazonTracking\\": "src/Qandacc/AmazonTracking/"
+        }
+    }
+}
